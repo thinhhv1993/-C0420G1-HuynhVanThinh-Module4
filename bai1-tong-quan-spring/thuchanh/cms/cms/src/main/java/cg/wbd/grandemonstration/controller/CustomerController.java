@@ -29,12 +29,13 @@ public class CustomerController {
 //    public String showList(Model model) {
 //        List<Customer> customers = customerService.findAll();
 //        model.addAttribute("customers", customers);
-//        return "customers/list.jsp";
+////        return "customers/list.jsp";
 //    }
 
     @GetMapping("/customers")
     public ModelAndView showList() {
-        ModelAndView modelAndView = new ModelAndView("customers/list.jsp");
+        ModelAndView modelAndView = new ModelAndView("customers/list");
+//        ModelAndView modelAndView = new ModelAndView("WEB-INF/templates/customers/list.jsp");
         List<Customer> customers = customerService.findAll();
         modelAndView.addObject("customers", customers);
         return modelAndView;
