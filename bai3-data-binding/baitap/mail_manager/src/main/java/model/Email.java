@@ -1,12 +1,14 @@
 package model;
 
 public class Email {
+    private int id;
     private String languages;
     private String pageSize;
     private String spamsFilter;
     private String signature;
 
-    public Email(String languages, String pageSize, String spamsFilter, String signature) {
+    public Email(Integer id,String languages, String pageSize, String spamsFilter, String signature) {
+        this.id = id;
         this.languages = languages;
         this.pageSize = pageSize;
         this.spamsFilter = spamsFilter;
@@ -18,6 +20,14 @@ public class Email {
 
     public String getLanguages() {
         return languages;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public void setLanguages(String languages) {

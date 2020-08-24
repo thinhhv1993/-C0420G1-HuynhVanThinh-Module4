@@ -17,11 +17,13 @@
     <table>
         <tr>
             <th>Id</th>
-            <th>Name</th>
-            <th>Age</th>
+            <th>languages</th>
+            <th>pageSize</th>
+            <th>spamsFilter</th>
+            <th>signature</th>
             <th>Action</th>
         </tr>
-        <c:forEach var="student" items="${students}">
+        <c:forEach var="email" items="${e}">
         <tr>
             <td>${student.getId()}</td>
             <td>${student.getName()}</td>

@@ -6,8 +6,12 @@
 </head>
 <body>
 <h3>Settings</h3>
-<form:form method="POST" action="update" modelAttribute="Email">
+<form:form method="POST" action="/email/form" modelAttribute="email">
     <table>
+        <tr>
+            <td><form:label path="id">ID: </form:label></td>
+            <td><form:input path="id" /></td>
+        </tr>
         <tr>
             <td><form:label path="languages">languages:</form:label></td>
             <td><form:select path="languages" items="${listLanguage}"/></td>
@@ -25,7 +29,7 @@
             <td><form:textarea path="signature" /></td>
         </tr>
         <tr>
-            <td><input type="submit" value="update"/></td>
+            <td><input type="submit" value="Add"/></td>
             <td><button type="button"/>
                 <a href="/form" style="text-decoration: none">Cancel</a></td>
         </tr>

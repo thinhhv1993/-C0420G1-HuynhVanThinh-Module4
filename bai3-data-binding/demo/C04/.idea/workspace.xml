@@ -7,181 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63a7ca03-4f26-4941-b03e-923e940e45f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../bai1-tong-quan-spring/baitap/tudien/src/main/java/service/Tudien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/src/main/webapp/java/service/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/mail_manager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/controllers/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/model/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/repository/EmailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/repository/EmailRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/service/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/service/EmailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/webapp/WEB-INF/views/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/webapp/WEB-INF/views/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/classes/controllers/EmailController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/classes/model/Email.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/classes/repository/EmailRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/classes/repository/EmailRepositoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/classes/service/EmailService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/classes/service/EmailServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/classes/controllers/EmailController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/classes/model/Email.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/classes/repository/EmailRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/classes/repository/EmailRepositoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/classes/service/EmailService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/classes/service/EmailServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-aop-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-beans-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-context-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-core-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-expression-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-web-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-webmvc-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/views/form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/views/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/StudentRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addStudent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editStudent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goodbye.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/C04.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controllers/HelloController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controllers/StudentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/Course.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/Repository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/StudentRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/repository/StudentRepositoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/service/StudentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/service/StudentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/META-INF/C04.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/controllers/HelloController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/controllers/StudentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/model/Course.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/model/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/repository/Repository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/repository/StudentRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/repository/StudentRepositoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/service/StudentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/service/StudentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-aop-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-beans-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-context-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-core-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-expression-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-web-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-webmvc-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/views/addStudent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/views/editStudent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/views/goodbye.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/views/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/views/student.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/demo-project/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/login.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/controllers/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/controllers/MyFileUploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/model/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/service/MyUploadForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/service/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/classes/controllers/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/classes/model/Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/classes/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/classes/service/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/controllers/EmployeeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/controllers/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/model/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/model/Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/service/MyUploadForm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/service/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-aop-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-beans-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-context-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-core-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-expression-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-web-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-webmvc-4.3.16.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/views/employee/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/views/employee/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/views/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1-tong-quan-spring/baitap/convert_money/src/main/java/controllers/ConvertControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1-tong-quan-spring/baitap/convert_money/src/main/java/controllers/ConvertControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai1-tong-quan-spring/baitap/tudien/src/main/java/controllers/TudienControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1-tong-quan-spring/baitap/tudien/src/main/java/controllers/TudienControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/src/main/webapp/java/controllers/CalculatorControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/src/main/webapp/java/controllers/CalculatorControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/calculator.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/calculator.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/calculator/WEB-INF/classes/controllers/CalculatorControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/calculator/WEB-INF/classes/controllers/CalculatorControllers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/calculator/java/controllers/CalculatorControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/calculator/java/controllers/CalculatorControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/classes/controllers/CalculatorControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/classes/controllers/CalculatorControllers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/repository/EmailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/repository/EmailRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thuchanh/login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +153,7 @@
       <workItem from="1597905495033" duration="9099000" />
       <workItem from="1597991532686" duration="4152000" />
       <workItem from="1598002874175" duration="56000" />
-      <workItem from="1598228092488" duration="2060000" />
+      <workItem from="1598228092488" duration="2382000" />
     </task>
     <servers />
   </component>

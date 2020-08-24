@@ -6,8 +6,7 @@
 </head>
 <body>
 <h2>Updated</h2>
-<table>
-    <tr>
+<table>    <tr>
         <td>Language :</td>
         <td>${Email.languages}</td>
     </tr>

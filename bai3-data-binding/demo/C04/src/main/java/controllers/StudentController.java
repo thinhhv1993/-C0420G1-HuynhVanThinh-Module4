@@ -17,7 +17,7 @@ import java.util.List;
 public class StudentController {
     StudentService studentService = new StudentServiceImpl();
 
-    @GetMapping("")
+        @GetMapping("")
     public ModelAndView getStudentPage(){
 //        ModelAndView modelAndView = new ModelAndView("student-list");
 //        List<Student> students = studentService.findAll();
