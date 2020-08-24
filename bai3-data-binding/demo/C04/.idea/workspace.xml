@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="C04:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63a7ca03-4f26-4941-b03e-923e940e45f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../bai1-tong-quan-spring/baitap/tudien/src/main/java/service/Tudien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/src/main/webapp/java/service/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/mail_manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/controllers/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/model/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/repository/EmailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/repository/EmailRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/service/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/webapp/WEB-INF/views/form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/webapp/WEB-INF/views/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/classes/controllers/EmailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/classes/model/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/classes/repository/EmailRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/classes/repository/EmailRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/classes/service/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/classes/service/EmailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/classes/controllers/EmailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/classes/model/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/classes/repository/EmailRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/classes/repository/EmailRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/classes/service/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/classes/service/EmailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-aop-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-beans-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-context-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-core-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-expression-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-web-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/lib/spring-webmvc-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/views/form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/views/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/target/mail_manager/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/StudentRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goodbye.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/C04.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllers/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllers/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/repository/Repository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/repository/StudentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/repository/StudentRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/service/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/META-INF/C04.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/controllers/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/controllers/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/model/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/model/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/repository/Repository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/repository/StudentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/repository/StudentRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/classes/service/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-aop-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-beans-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-context-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-core-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-expression-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-web-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/lib/spring-webmvc-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/views/addStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/views/editStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/views/goodbye.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/views/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/views/student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/demo-project/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/login.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/controllers/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/controllers/MyFileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/service/MyUploadForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/service/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/classes/controllers/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/classes/model/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/classes/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/classes/service/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/controllers/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/controllers/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/model/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/model/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/service/MyUploadForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/classes/service/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-aop-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-beans-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-context-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-core-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-expression-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-web-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/lib/spring-webmvc-4.3.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/views/employee/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/target/login/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai1-tong-quan-spring/baitap/convert_money/src/main/java/controllers/ConvertControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1-tong-quan-spring/baitap/convert_money/src/main/java/controllers/ConvertControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai1-tong-quan-spring/baitap/tudien/src/main/java/controllers/TudienControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai1-tong-quan-spring/baitap/tudien/src/main/java/controllers/TudienControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/src/main/webapp/java/controllers/CalculatorControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/src/main/webapp/java/controllers/CalculatorControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/calculator.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/calculator.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/calculator/WEB-INF/classes/controllers/CalculatorControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/calculator/WEB-INF/classes/controllers/CalculatorControllers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/calculator/java/controllers/CalculatorControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/calculator/java/controllers/CalculatorControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/classes/controllers/CalculatorControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai2-spring-controller/baitap/calculator/target/classes/controllers/CalculatorControllers.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gP4PlXLY7s30AGDUcxmZLwgYZz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.22" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.22" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="C04:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_demoproject" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64151" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="C04:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63a7ca03-4f26-4941-b03e-923e940e45f3" name="Default Changelist" comment="" />
+      <created>1597821216418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597821216418</updated>
+      <workItem from="1597821219571" duration="2064000" />
+      <workItem from="1597905495033" duration="9099000" />
+      <workItem from="1597991532686" duration="4152000" />
+      <workItem from="1598002874175" duration="56000" />
+      <workItem from="1598228092488" duration="2060000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>C04:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>C04</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>taglibs-standard-impl-1.2.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

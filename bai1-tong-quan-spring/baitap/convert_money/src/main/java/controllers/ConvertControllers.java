@@ -13,7 +13,7 @@ public class ConvertControllers {
         return "index";
     }
     @RequestMapping(value="/result",method = RequestMethod.GET)
-    public ModelAndView result(@RequestParam int number){
+    public ModelAndView result(@RequestParam("number") int number){
         int result =number*23000;
         ModelAndView model = new ModelAndView("/index");
         model.addObject("result",result);
