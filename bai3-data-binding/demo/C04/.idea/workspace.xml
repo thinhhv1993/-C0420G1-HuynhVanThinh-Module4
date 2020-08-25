@@ -7,9 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63a7ca03-4f26-4941-b03e-923e940e45f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/java/com/codegym/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/java/com/codegym/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/java/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../baitap/mail_manager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/repository/EmailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../baitap/mail_manager/src/main/java/repository/EmailRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../thuchanh/login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -154,11 +177,27 @@
       <workItem from="1597991532686" duration="4152000" />
       <workItem from="1598002874175" duration="56000" />
       <workItem from="1598228092488" duration="2382000" />
+      <workItem from="1598235059775" duration="3100000" />
+      <workItem from="1598256385587" duration="887000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1598256610628">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598256610628" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1598256425595">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598256425595" />
+    <state x="65" y="59" key="new project wizard" timestamp="1598256661373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1598256661373" />
   </component>
   <component name="masterDetails">
     <states>
