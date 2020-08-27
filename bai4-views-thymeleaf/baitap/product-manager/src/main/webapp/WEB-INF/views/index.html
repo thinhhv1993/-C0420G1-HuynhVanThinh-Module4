@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 
 <html lang="fr" xmlns:th="http://www.thymeleaf.org">
+<meta charset="UTF-8">
 <head th:replace="/layout :: head">
+
 </head>
 <body>
 <h3>Product</h3>
@@ -29,10 +31,10 @@
     </thead>
     <tbody>
     <tr th:each="row,rowStat : ${products}">
-        <td th:text="${row.name }"></td>
-        <td th:text="${row.price}"></td>
-        <td th:text="${row.amount}"></td>
-        <td th:text="${row.country}"></td>
+        <td th:utext="${row.name }"></td>
+        <td th:utext="${row.price}"></td>
+        <td th:utext="${row.amount}"></td>
+        <td th:utext="${row.country}"></td>
         <td><a th:href="@{/product/{id}/edit(id=${row.getId()})}">edit</a></td>
         <td><a th:href="@{/product/{id}/delete(id=${row.getId()})}">delete</a></td>
         <td><a th:href="@{/product/{id}/view(id=${row.getId()})}">view</a></td>

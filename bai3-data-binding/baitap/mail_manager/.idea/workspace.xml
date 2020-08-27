@@ -7,80 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6b313b3-965b-4bcf-a198-e237fdbc7e90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.gradle/5.2.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/build/classes/java/main/config/AppConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/build/classes/java/main/config/AppInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/build/classes/java/main/controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/build/classes/java/main/model/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/build/classes/java/main/reponsive/ProductRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/build/classes/java/main/reponsive/ProductRepositoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/build/classes/java/main/reponsive/Repository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/build/classes/java/main/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/build/classes/java/main/service/ProductServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/build/libs/product-manager-1.0-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/java/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/java/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/java/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/java/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/java/reponsive/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/java/reponsive/ProductRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/java/reponsive/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/java/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/java/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/java/com/codegym/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/java/com/codegym/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/java/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai4-views-thymeleaf/thuchanh/customer-manager/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../demo/C04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/C04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuchanh/login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../bai4-views-thymeleaf/baitap/product-manager" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.16015625" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -241,6 +168,7 @@
       <updated>1598227758574</updated>
       <workItem from="1598227762324" duration="7690000" />
       <workItem from="1598261814895" duration="1929000" />
+      <workItem from="1598322455064" duration="108000" />
     </task>
     <servers />
   </component>
@@ -259,6 +187,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598235682889" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598322564948">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598322564948" />
     <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1598245260702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -311,5 +243,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598230436384" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1598322457100">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598322457100" />
   </component>
 </project>
