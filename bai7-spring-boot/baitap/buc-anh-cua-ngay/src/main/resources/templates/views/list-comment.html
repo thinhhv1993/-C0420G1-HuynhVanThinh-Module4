@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Mark</th>
+        <th>Author</th>
+        <th>Feedback</th>
+        <th>Like</th>
+        <th></th>
+    </tr>
+    <tr th:each="comment : ${comments}">
+        <td th:text="${comment.id}"></td>
+        <td th:text="${comment.mark}"></td>
+        <td th:text="${comment.author}"></td>
+        <td th:text="${comment.feedback}"></td>
+        <td th:text="${comment.totalLike}"></td>
+        <td><a th:href="@{/update-like/__${comment.id}__ }">LIKE</a></td>
+    </tr>
+</table>
+<div>
+    <a th:href="@{'/comments'(page=${comments.number - 1})}" th:if="${comments.hasPrevious()}">Previous</a>
+    <span th:text="${comments.number + 1}"></span>/<span th:text="${comments.totalPages}"></span>
+    <a th:href="@{'/comments'(page=${comments.number + 1})}" th:if="${comments.hasNext()}">Next</a>
+</div>
+
+</body>
+</html>
