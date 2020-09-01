@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<h3>Error</h3>
+<p>
+    <a th:href="@{/create-comment}">
+        Back to list comment
+    </a>
+</p>
+<h3> Có từ sấu</h3>
+<div id="detail">
+    <div class="cusdetail">
+        <label>Author :</label>
+        <label th:text="${comment.author}"></label>
+    </div>
+    <div class="cusdetail">
+        <label>feedback :</label>
+        <label th:text="${comment.feedback}"></label>
+    </div>
+    <div>
+        <label>Date :</label>
+        <label th:text="${comment.date}"></label>
+    </div>
+</div>
+
+</body>
+</html>

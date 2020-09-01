@@ -1,5 +1,6 @@
 package com.codegym.formdangky.model;
 
+import com.codegym.formdangky.ultil.validate.CheckPhone;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
@@ -10,7 +11,9 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
 @Entity
-public class Customer implements Validator {
+public class Customer
+//implements Validator
+{
 
     @Id
     @Column(name = "id")
@@ -28,6 +31,7 @@ public class Customer implements Validator {
     private String lastName;
 
     @Column(name = "phone")
+    @CheckPhone
     private String phone;
 
     @Column(name = "email")
@@ -86,25 +90,25 @@ public class Customer implements Validator {
         this.phone = phone;
     }
 
-    @Override
-    public boolean supports(Class<?> aClass) {
-        return Customer.class.isAssignableFrom(aClass);
-    }
+//    @Override
+//    public boolean supports(Class<?> aClass) {
+//        return Customer.class.isAssignableFrom(aClass);
+//    }
 
 
-    @Override
-    public void validate(Object o, Errors errors) {
-        Customer customer = (Customer) o;
-        String number = customer.getPhone();
-        ValidationUtils.rejectIfEmpty(errors, "phone", "phone.empty");
-        if (number.length()>11 || number.length()<10){
-            errors.rejectValue("phone", "phone.length");
-        }
-        if (!number.startsWith("0")){
-            errors.rejectValue("phone", "phone.startsWith");
-        }
-        if (!number.matches("(^$|[0-9]*$)")){
-            errors.rejectValue("phone", "phone.matches");
-        }
-    }
+//    @Override
+//    public void validate(Object o, Errors errors) {
+//        Customer customer = (Customer) o;
+//        String number = customer.getPhone();
+//        ValidationUtils.rejectIfEmpty(errors, "phone", "phone.empty");
+//        if (number.length()>11 || number.length()<10){
+//            errors.rejectValue("phone", "phone.length");
+//        }
+//        if (!number.startsWith("0")){
+//            errors.rejectValue("phone", "phone.startsWith");
+//        }
+//        if (!number.matches("(^$|[0-9]*$)")){
+//            errors.rejectValue("phone", "phone.matches");
+//        }
+//    }
 }

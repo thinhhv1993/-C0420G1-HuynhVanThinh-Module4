@@ -6,11 +6,90 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c076c0b-bee8-430b-83e3-4bd26358fb6d" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="6c076c0b-bee8-430b-83e3-4bd26358fb6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ORM_JAP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/src/main/java/com/example/bucanhcuangay/BucAnhCuaNgayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/src/main/java/com/example/bucanhcuangay/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/src/main/java/com/example/bucanhcuangay/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/src/main/java/com/example/bucanhcuangay/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/src/main/java/com/example/bucanhcuangay/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/src/main/java/com/example/bucanhcuangay/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/src/main/java/com/example/bucanhcuangay/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/src/main/resources/templates/views/create-comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/src/main/resources/templates/views/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/src/main/resources/templates/views/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/src/main/resources/templates/views/list-comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/buc-anh-cua-ngay/src/test/java/com/example/bucanhcuangay/BucAnhCuaNgayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/ung-dung-muon-sach/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/ung-dung-muon-sach/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/ung-dung-muon-sach/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/ung-dung-muon-sach/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/ung-dung-muon-sach/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/ung-dung-muon-sach/src/main/java/com/codegym/ungdungmuonsach/UngDungMuonSachApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/ung-dung-muon-sach/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/baitap/ung-dung-muon-sach/src/test/java/com/codegym/ungdungmuonsach/UngDungMuonSachApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/src/main/java/com/codegym/demoaop/AOP_config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/src/main/java/com/codegym/demoaop/DemoAopApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/src/main/java/com/codegym/demoaop/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/src/main/java/com/codegym/demoaop/aop/DemoBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/src/main/java/com/codegym/demoaop/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/demo-aop/src/test/java/com/codegym/demoaop/DemoAopApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/main/java/com/codegym/muon_sach/MuonSachApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/main/java/com/codegym/muon_sach/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/main/java/com/codegym/muon_sach/exception/GiveBookBackException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/main/java/com/codegym/muon_sach/exception/RentBookException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/main/java/com/codegym/muon_sach/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/main/java/com/codegym/muon_sach/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/main/java/com/codegym/muon_sach/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/main/resources/templates/GiveBookBack.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/main/resources/templates/RentBook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/main/resources/templates/errorGiveBookBack.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach/src/test/java/com/codegym/muon_sach/MuonSachApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/thuchanh/cms/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/thuchanh/cms/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/thuchanh/cms/src/main/java/cg/wbd/grandemonstration/concern/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc21a843-4133-45df-a677-b782f12f4dd7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc21a843-4133-45df-a677-b782f12f4dd7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/cms/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6-JAP/demo/spring-jpa-customer-management-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6-JAP/demo/spring-jpa-customer-management-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6-JAP/thuchanh/custommer-manager/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6-JAP/thuchanh/custommer-manager/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai8-validation/thuchanh/phone/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai8-validation/thuchanh/phone/.idea/gradle.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +135,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -111,126 +189,6 @@
       </state>
     </system>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/controller/CustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="23" column="58" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/create.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/Repository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/CustomerRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/impl/CustomerRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/impl/CustomerServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/CustomerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/ApplicationConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1166">
-              <caret line="87" column="38" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/model/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="31" column="98" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="98" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -240,21 +198,14 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/cms/ApplicationInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/Repository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/CustomerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/customer/create.html" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/cms/service/CustomerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/impl/CustomerRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/cms/service/impl/CustomerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/cms/controller/CustomerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/cms/ApplicationConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/cms/model/Customer.java" />
-      </list>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Modul4\bai5-thao-tac-CSDL-vs-ORM\demo\ORM_JAP\.idea" />
+      </set>
     </option>
   </component>
   <component name="LogFilters">
@@ -264,161 +215,21 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="91" />
-    <option name="width" value="346" />
-    <option name="height" value="546" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ORM_JAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ORM_JAP" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1grOdrpQA8K4O33lvRV5Ur426Ma" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../bai9-AOP-exception-handling/demo/muon_sach" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -433,18 +244,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CodeGym\ORM_JAP\src\main\webapp\WEB-INF" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.22">
     <configuration name="ORM_JAP [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -606,275 +405,23 @@
       <workItem from="1598327158252" duration="900000" />
       <workItem from="1598339628583" duration="2041000" />
       <workItem from="1598342459711" duration="68000" />
+      <workItem from="1598869338933" duration="610000" />
+      <workItem from="1598922846432" duration="1094000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39983000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14238952" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41156462" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.36988544" />
-      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32993197" />
-      <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32993197" />
-      <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" />
-      <window_info anchor="bottom" id="Database Console" order="17" weight="0.32993197" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.32223904" />
-      <window_info anchor="right" id="Database" order="7" weight="0.1323752" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fc21a843-4133-45df-a677-b782f12f4dd7/console.sql" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.17.RELEASE/42a297f13fd0c2bf304f0b4f589b589dc1e69159/spring-web-4.3.17.RELEASE-sources.jar!/org/springframework/web/context/ContextLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="349" selection-start-line="349" selection-end-line="349" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.17.RELEASE/5c37229b7d8d1f86296e133a00b8b2ffc24b6bc1/spring-beans-4.3.17.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4981">
-          <caret line="368" selection-start-line="368" selection-end-line="368" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.17.RELEASE/ce408bf1c8fae3399207c82cd70446ef90ff1f28/spring-context-4.3.17.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7582">
-          <caret line="549" selection-start-line="549" selection-end-line="549" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.17.RELEASE/5c37229b7d8d1f86296e133a00b8b2ffc24b6bc1/spring-beans-4.3.17.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3468">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.17.RELEASE/a3d40d84150579049509139f350ba7908b5448d2/spring-webmvc-4.3.17.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="975" selection-start-line="975" selection-end-line="975" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.17.RELEASE/a3d40d84150579049509139f350ba7908b5448d2/spring-webmvc-4.3.17.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="834" selection-start-line="834" selection-end-line="834" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.17.RELEASE/5c37229b7d8d1f86296e133a00b8b2ffc24b6bc1/spring-beans-4.3.17.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="594" selection-start-line="594" selection-end-line="594" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.17.RELEASE/5c37229b7d8d1f86296e133a00b8b2ffc24b6bc1/spring-beans-4.3.17.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.17.RELEASE/77814c99de6f8282c64a4d604024c70e238037ae/spring-core-4.3.17.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.17.RELEASE/5c37229b7d8d1f86296e133a00b8b2ffc24b6bc1/spring-beans-4.3.17.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="565" selection-start-line="565" selection-end-line="565" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.17.RELEASE/1c9db6d980be91128319200939014868801787d2/spring-core-4.3.17.RELEASE-sources.jar!/org/springframework/util/ReflectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="e#2582#2583#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.17.RELEASE/ce408bf1c8fae3399207c82cd70446ef90ff1f28/spring-context-4.3.17.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="424" selection-start-line="424" selection-end-line="424" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.17.RELEASE/42a297f13fd0c2bf304f0b4f589b589dc1e69159/spring-web-4.3.17.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="213" selection-start-line="213" selection-end-line="213" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://fc21a843-4133-45df-a677-b782f12f4dd7/schema/cms/table/hibernate_sequence" />
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/ApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/delete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/CustomerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/repository/impl/CustomerRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/impl/CustomerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/service/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="87" column="38" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="98" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/cms/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598926172585">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598926172585" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1598922847964">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598922847964" />
   </component>
   <component name="masterDetails">
     <states>

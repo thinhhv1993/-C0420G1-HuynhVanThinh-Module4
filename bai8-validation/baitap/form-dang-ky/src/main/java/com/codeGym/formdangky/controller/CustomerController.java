@@ -40,7 +40,7 @@ public class CustomerController {
 
     @PostMapping("/create-customer")
     public ModelAndView saveCustomer(@Validated @ModelAttribute("customer") Customer customer, BindingResult bindingResult) {
-        new Customer().validate(customer, bindingResult);
+//        new Customer().validate(customer, bindingResult);
         ModelAndView modelAndView = new ModelAndView("customer/create");
         if (bindingResult.hasErrors()){
             return modelAndView;
