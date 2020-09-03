@@ -16,5 +16,5 @@ public interface CommentService {
     Comment findById(Long id);
     Page<Comment> findAll(Pageable pageable);
 
-
+    void save(Comment comment);
 }

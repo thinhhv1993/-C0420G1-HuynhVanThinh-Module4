@@ -51,5 +51,10 @@ public class CommentServiceImpl implements CommentService {
         return this.commentRepository.findAll(pageable);
     }
 
+    @Override
+    public void save(Comment comment) {
+        this.commentRepository.save(comment);
+    }
+
 
 }

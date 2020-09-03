@@ -44,7 +44,7 @@ public class CommentController {
     public ModelAndView updateLike(@PathVariable("id") Long id,Pageable pageable) {
         Comment comment = commentService.findById(id);
         comment.setTotalLike(comment.getTotalLike()+1);
-        commentService.save(comment,pageable);
+        commentService.save(comment);
         Page<Comment> comments = commentService.findAll(pageable);
         return new ModelAndView("/views/list-comment","comments",comments);
     }

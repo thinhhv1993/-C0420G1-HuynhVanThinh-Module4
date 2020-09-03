@@ -16,7 +16,6 @@ import java.util.Map;
 import java.util.Random;
 
 @Controller
-@Aspect
 public class BookController {
     private Map<Integer, Book> bookMap=new HashMap<>();
 
@@ -68,12 +67,4 @@ public class BookController {
         throw new GiveBookBackException();
     }
 
-    @ExceptionHandler(GiveBookBackException.class)
-    public ModelAndView showErrorGiveBookBack() {
-        return new ModelAndView("errorGiveBookBack");
-    }
-    @ExceptionHandler(RentBookException.class)
-    public ModelAndView showInputNotAcceptable() {
-        return new ModelAndView("error");
-    }
 }
