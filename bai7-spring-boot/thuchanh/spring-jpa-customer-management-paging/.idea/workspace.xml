@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5eaa117-a93b-4c57-9ab7-4807a4aa097e" name="Default Changelist" comment="">
+    <list default="true" id="a7139a9c-94b5-4eb9-b03a-8190c96b3a5f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../bai10-session-cookie-trong-spring/baitap/gio-hang/src/main/java/com/codegym/giohang/model/Cart.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../bai10-session-cookie-trong-spring/baitap/gio-hang/src/main/java/com/codegym/giohang/model/Product.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../bai10-session-cookie-trong-spring/baitap/gio-hang/src/main/java/com/codegym/giohang/repository/CartRepository.java" afterDir="false" />
@@ -28,14 +28,9 @@
       <change afterPath="$PROJECT_DIR$/../../../bai10-session-cookie-trong-spring/thuchanh/save-user/src/main/java/com/codegym/saveuser/controller/LoginController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../bai10-session-cookie-trong-spring/thuchanh/save-user/src/main/java/com/codegym/saveuser/model/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../bai10-session-cookie-trong-spring/thuchanh/save-user/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai7-spring-boot/thuchanh/spring-jpa-customer-management-paging/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai7-spring-boot/thuchanh/spring-jpa-customer-management-paging/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai7-spring-boot/thuchanh/spring-jpa-customer-management-paging/.idea/spring-jpa-customer-management-paging.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai7-spring-boot/thuchanh/spring-jpa-customer-management-paging/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../bai7-spring-boot/thuchanh/spring-jpa-customer-management-paging/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../bai5-thao-tac-CSDL-vs-ORM/demo/ORM_JAP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5-thao-tac-CSDL-vs-ORM/demo/ORM_JAP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6-JAP/demo/spring-jpa-customer-management-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6-JAP/demo/spring-jpa-customer-management-master/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai6-JAP/demo/spring-jpa-customer-management-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai6-JAP/demo/spring-jpa-customer-management-master/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../bai8-validation/baitap/form-dang-ky/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai8-validation/baitap/form-dang-ky/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1gdEgMNFxdeF89iRRzMZttwt0NH" />
+  <component name="ProjectId" id="1gzBkDHKGq6fitXaU1kgwJsGBj6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,22 +52,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../bai7-spring-boot/baitap/blog-spingboot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-jpa-customer-management-paging" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a5eaa117-a93b-4c57-9ab7-4807a4aa097e" name="Default Changelist" comment="" />
-      <created>1598436178763</created>
+      <changelist id="a7139a9c-94b5-4eb9-b03a-8190c96b3a5f" name="Default Changelist" comment="" />
+      <created>1599107682046</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598436178763</updated>
-      <workItem from="1598436180839" duration="21000" />
-      <workItem from="1598863814198" duration="35000" />
-      <workItem from="1599102479641" duration="25000" />
-      <workItem from="1599106094805" duration="1667000" />
+      <updated>1599107682046</updated>
+      <workItem from="1599107683737" duration="13000" />
     </task>
     <servers />
   </component>
@@ -80,13 +72,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="531" y="253" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1599106103814">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1599107695740">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="531" y="253" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1599106103814" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1599107581244">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599107581244" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599107695740" />
   </component>
 </project>
