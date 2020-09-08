@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        let y = 2 ;
+        $(document).ready(function () {
+            $('.displayBlog1').click(function (event) {
+            $.ajax({
+                url: "/blogs1",
+                type: "GET",
+                dataType: 'json',
+                beforeSend: function (xhr) {
+                    xhr.setRequestHeader("Accept", "application/json");
+                    xhr.setRequestHeader("Content-Type", "application/json");
+                },
+                success: function (blogs) {
+                    document.getElementById("displayBlog").style = "display: none";
+                    document.getElementById("displayBlog1").style = "display: block";
+                    let display = '<table border="1" style="background-color : antiquewhite ">\n' +
+                        '<tr>\n' +
+                        '<th style="height: 20px;width: 200px">Name Blog</th>\n' +
+                        '<th style="height: 20px;width: 200px">Type</th>\n' +
+                        '<th style="height: 20px;width: 200px">Action</th>\n' +
+                        '</tr>'
+                    for (let i = 0; i < y; i++) {
+                        if(i==blogs.length){
+                            break;
+                        }
+                        display += '<tr>\n' +
+                            '<td style="height: 20px;width: 200px">' + blogs[i].name + '</td>\n' +
+                            '<td style="height: 20px;width: 200px">' + blogs[i].category.name + '</td>\n' +
+                            "<td  style=\"height: 20px;width: 200px\"><button><a href='/delete-blog/" + blogs[i].id +"'"+ " >xóa</a></button></td>" +
+                            "<td  style=\"height: 20px;width: 200px\"><button><a href='/edit-blog/" + blogs[i].id +"'"+ ">Sửa</a></button></td>" +
+                        '</tr>'
+                    }
+                    display += '</table>';
+                    document.getElementById("result").innerHTML = display;
+                }
+            });
+        });
+        });
+        function displayBlogsadd(){
+            y += 2;
+        }
+
+        $(document).ready(function () {
+           $('#SearchForm').submit(function (event) {
+                    let search = {};
+                    search["search"] = $('#search').val();
+                $.ajax({
+                    url: "/",
+                    type: "GET",
+                    data: {search: search["search"]},
+                    dataType: 'json',
+                    beforeSend: function (xhr) {
+                        xhr.setRequestHeader("Accept", "application/json");
+                        xhr.setRequestHeader("Content-Type", "application/json");
+                    },
+                    success: function (blogs) {
+                        let respContent = "";
+                        respContent += "<span class='success'> Blogs search : ";
+                        for(let item of blogs){
+                            respContent += "[";
+                            respContent += item.name + " : " ;
+                            respContent += item.category.name +  "]" + "</span>"
+                            respContent += "</br>";
+                        }
+                        $("#result").html(respContent);
+                    }
+                });
+                event.preventDefault();
+            });
+        });
+    </script>
+</head>
+<body>
+<a href="/create-blog">Create new Blog</a>
+<form id="SearchForm" myAttribute="${param.search}">
+    Search by first name:
+    <input name="search" type="text" id="search"/>
+    <input type="submit" value="Search" />
+</form><br/>
+
+<!--<form>-->
+<!--    <select name="searchCategogy" onchange='this.form.submit()'>-->
+<!--        <option th:each="c : ${categorys}" th:value="${c.name}" th:text="${c.name}"  ></option>-->
+<!--    </select>-->
+<!--</form><br/>-->
+<h1>Blog</h1>
+<button class="displayBlog1" id="displayBlog">Hiển thị danh sách</button>
+<div id="result"></div>
+<button class="displayBlog1" id="displayBlog1" style="display: none" onclick="displayBlogsadd()">Thêm</button>
+<!--<table border="1">-->
+<!--    <tr>-->
+<!--        <th>Blog Name</th>-->
+<!--        <th>Type</th>-->
+<!--        <th>Edit</th>-->
+<!--        <th>Delete</th>-->
+<!--    </tr>-->
+<!--    <th:block th:each="blog : ${blogs}">-->
+<!--        <tr>-->
+<!--            <td ><a th:href="@{/view-blog/__${blog.id}__ }" th:text="${blog.name}"></a></td>-->
+<!--            <td th:text="${blog.category.name}"></td>-->
+<!--            <td><a th:href="@{/edit-blog/__${blog.id}__ }">Edit</a></td>-->
+<!--            <td><a th:href="@{/delete-blog/__${blog.id}__ }" class="delete" title="Delete" id="delete"-->
+<!--                   data-toggle="tooltip" data-confirm="Are you sure to delete this item?">Delete</a></td>-->
+<!--        </tr>-->
+<!--    </th:block>-->
+<!--</table>-->
+<!--<div>-->
+<!--    <a th:href="@{'/blogs'(page=${blogs.number - 1})}" th:if="${blogs.hasPrevious()}">Previous</a>-->
+<!--    <span th:text="${blogs.number + 1}"></span>/<span th:text="${blogs.totalPages}"></span>-->
+<!--    <a th:href="@{'/blogs'(page=${blogs.number + 1})}" th:if="${blogs.hasNext()}">Next</a>-->
+<!--</div>-->
+</body>
+<script>
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            var deleteLinks = document.querySelectorAll('.delete');
+            for (var i = 0; i < deleteLinks.length; i++) {
+                deleteLinks[i].addEventListener('click', function(event) {
+                    event.preventDefault();
+                    var choice = confirm(this.getAttribute('data-confirm'));
+                    if (choice) {
+                        window.location.href = this.getAttribute('href');
+                    }
+                });
+            }
+        }, false);
+    })();
+</script>
+</html>
