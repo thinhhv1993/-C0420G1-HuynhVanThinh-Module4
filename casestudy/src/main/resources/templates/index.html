@@ -1,0 +1,79 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Furama</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/asset/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/asset/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/asset/css/brands.min.css">
+    <link rel="stylesheet" href="/asset/css/all.min.css">
+    <link rel="stylesheet" href="/asset/css/css.css">
+    <style>
+        body {
+            background-image: url("/img/furama-6-1440x690.jpg");
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top " th:fragment="header">
+    <div class="container-fluid">
+        <a class="navbar-branch" href="#">
+            <img src="/img/FURAMA.png" height="80">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><h4>Huỳnh Văn Thịnh</h4></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <ul class="nav" th:fragment="menu">
+        <li class="nav-item">
+            <a class="nav-link active" th:href="@{/}">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" th:href="@{/khachhangs}">Khách Hàng</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/furamas?action=listService">Dịch Vụ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/furamas?action=listContract">Hợp Đồng</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/furamas?action=listContractDetail">Hợp Đồng Chi Tiết</a>
+        </li>
+    </ul>
+<div class="footer-copyright text-center py-3" th:fragment="footer">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+</div>
+</body>
+<script>
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            var deleteLinks = document.querySelectorAll('.delete');
+            for (var i = 0; i < deleteLinks.length; i++) {
+                deleteLinks[i].addEventListener('click', function(event) {
+                    event.preventDefault();
+                    var choice = confirm(this.getAttribute('data-confirm'));
+                    if (choice) {
+                        window.location.href = this.getAttribute('href');
+                    }
+                });
+            }
+        }, false);
+    })();
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="../static/asset/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+</html>

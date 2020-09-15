@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/index :: head"></head>
+<head>
+    <title>Title</title>
+    <style>
+        button {
+            margin-bottom: 10px;
+        }
+        .custom-search-form{
+            margin-top:5px;
+        }
+        .btn-default {
+            font-size: 20px;
+            padding: 5px;
+            margin-left: 10px;
+        }
+        .form-control {
+            padding: 17px 10px;
+            line-height: 37px;
+        }
+    </style>
+</head>
+<body>
+<nav th:replace="/index :: header"></nav>
+<ul th:replace="/index :: menu"></ul>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-md-4"><button type="button" class="btn btn-outline-primary">
+            <a th:href="@{/create-khachhang}">Tạo Khách Hàng Mới</a></button></div>
+        <div class="col-lg-7">
+            <div class="input-group custom-search-form">
+                <input type="text" class="form-control">
+                <span class="input-group-btn">
+              <button class="btn btn-default" type="button">
+              <span class="fas fa-search"></span>
+             </button>
+             </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+<table class="table table-sm table-primary">
+    <thead>
+    <tr>
+        <th>STT</th>
+        <th>Mã Khách Hàng</th>
+        <th>Tên Khách Hàng</th>
+        <th>Loại Khách Hàng</th>
+        <th>Ngày Sinh</th>
+        <th>Giới Tính</th>
+        <th>CMND</th>
+        <th>Số ĐT</th>
+        <th>Email</th>
+        <th>Địa Chỉ</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <th:block th:each="khachhang : ${khachhangs}">
+        <tr>
+            <td ><a th:href="@{/view-khachhang/__${khachhang.id}__ }" th:text="${khachhang.id}"></a></td>
+            <td th:text="${khachhang.idKhachHang}"></td>
+            <td th:text="${khachhang.hoTen}"></td>
+            <td th:text="${khachhang.loaiKhachHang.tenLoaiKhachHang}"></td>
+            <td th:text="${khachhang.ngaySinh}"></td>
+            <td th:text="${khachhang.gioiTinh}"></td>
+            <td th:text="${khachhang.soCMND}"></td>
+            <td th:text="${khachhang.sDT}"></td>
+            <td th:text="${khachhang.email}"></td>
+            <td th:text="${khachhang.diaChi}"></td>
+            <td><a th:href="@{/edit-khachhang/__${khachhang.id}__ }"><i class="fas fa-edit"></i></a></td>
+            <td><a th:href="@{/delete-khachhang/__${khachhang.id}__ }" class="delete" title="Delete" id="delete"
+                   data-toggle="tooltip" data-confirm="Bạn có muốn xóa khách hàng này không"><i class="far fa-trash-alt"></i></a></td>
+        </tr>
+    </th:block>
+    </tbody>
+</table>
+</div>
+<div th:replace="/index :: footer"></div>
+</body>
+</html>

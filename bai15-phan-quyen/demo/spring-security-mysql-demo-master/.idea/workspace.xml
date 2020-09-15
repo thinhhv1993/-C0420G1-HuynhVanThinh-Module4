@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00590c8e-837b-49d8-95c7-0dbbafcb3d5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/BlogSpingbootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/service/Impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/service/Impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/resources/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/resources/templates/blog/blog/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/resources/templates/blog/blog/user/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/resources/templates/blog/blog/user/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/resources/templates/blog/blog/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/resources/templates/blog/category/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/resources/templates/blog/category/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/resources/templates/blog/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/main/resources/templates/blog/category/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot/src/test/java/com/codegym/blogspingboot/BlogSpingbootApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/thuchanh/spring-security/src/main/java/com/codegym/springsecurity/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/thuchanh/spring-security/src/main/java/com/codegym/springsecurity/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/thuchanh/spring-security/src/main/java/com/codegym/springsecurity/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/thuchanh/spring-security/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/thuchanh/spring-security/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai14-security/thuchanh/spring-security/src/main/resources/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/src/main/java/com/codegym/springrolebasedauthorization/SpringRoleBasedAuthorizationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/src/main/java/com/codegym/springrolebasedauthorization/configuration/CustomSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/src/main/java/com/codegym/springrolebasedauthorization/configuration/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/src/main/java/com/codegym/springrolebasedauthorization/configuration/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/src/main/java/com/codegym/springrolebasedauthorization/controller/SercurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/src/main/resources/templates/accessDenied.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/src/main/resources/templates/dba.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-role-based-authorization/src/test/java/com/codegym/springrolebasedauthorization/SpringRoleBasedAuthorizationApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai5-thao-tac-CSDL-vs-ORM/baitap/Buc_anh_cua_ngay/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5-thao-tac-CSDL-vs-ORM/baitap/Buc_anh_cua_ngay/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai5-thao-tac-CSDL-vs-ORM/baitap/Buc_anh_cua_ngay/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5-thao-tac-CSDL-vs-ORM/baitap/Buc_anh_cua_ngay/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai5-thao-tac-CSDL-vs-ORM/baitap/Buc_anh_cua_ngay/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai5-thao-tac-CSDL-vs-ORM/baitap/Buc_anh_cua_ngay/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1hTyC93vs42od3UOlUtvHq3GXsf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../bai14-security/baitap/blog-spingboot" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00590c8e-837b-49d8-95c7-0dbbafcb3d5d" name="Default Changelist" comment="" />
+      <created>1600049246606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600049246606</updated>
+      <workItem from="1600049252169" duration="1542000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1600052207396">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600052207396" />
+  </component>
+</project>

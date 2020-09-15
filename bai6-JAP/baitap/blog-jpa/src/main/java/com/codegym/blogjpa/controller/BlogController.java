@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 public class BlogController {
@@ -93,7 +94,7 @@ public class BlogController {
 //    }
 
     @GetMapping("/delete-blog/{id}")
-    public String deleteBlog(@PathVariable Long id){
+    public String deleteBlog(@PathVariable Long id, RedirectAttributes redirect){
         blogService.remove(id);
         return "redirect:/blogs";
     }
