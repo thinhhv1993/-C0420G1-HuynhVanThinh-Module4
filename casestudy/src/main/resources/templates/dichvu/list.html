@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/index :: head"></head>
+<head>
+    <title>Title</title>
+    <style>
+        button {
+            margin-bottom: 10px;
+        }
+
+        .custom-search-form {
+            margin-top: 5px;
+        }
+
+        .btn-default {
+            font-size: 20px;
+            padding: 5px;
+            margin-left: 10px;
+        }
+
+        .form-control {
+            padding: 17px 10px;
+            line-height: 37px;
+        }
+    </style>
+</head>
+<body>
+<nav th:replace="/index :: header"></nav>
+<ul th:replace="/index :: menu"></ul>
+<div class="container">
+    <form th:action="@{/dichvus}">
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <button type="button" class="btn btn-outline-primary">
+                    <a th:href="@{/create-dichvu}">Tạo Dịch Vụ Mới</a></button>
+            </div>
+            <div class="col-md-6">
+                <div class="input-group custom-search-form">
+                    <input type="text" class="form-control" name="search" placeholder="Tiềm Kiếm">
+                    <span class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+              <span class="fas fa-search"></span>
+             </button>
+             </span>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="container">
+    <table class="table table-sm table-primary">
+        <thead>
+        <tr>
+            <th>STT</th>
+            <th>Mã Dich Vụ</th>
+            <th>Tên Dịch Vụ</th>
+            <th>Diện Tích</th>
+            <th>Số Tầng</th>
+            <th>Số Người Tối Đa</th>
+            <th>Chi Phí Thuê</th>
+            <th>Kiểu Thuê</th>
+            <th>Loại Dịch Vụ</th>
+            <th>Trạng Thái</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <th:block th:each="dichvu : ${dichvus}">
+            <tr>
+                <td><a th:href="@{/view-dichvu/__${dichvu.id}__ }" th:text="${dichvu.id}"></a></td>
+                <td th:text="${dichvu.idDichVu}"></td>
+                <td th:text="${dichvu.tenDichVu}"></td>
+                <td th:text="${dichvu.dienTich}"></td>
+                <td th:text="${dichvu.soTang}"></td>
+                <td th:text="${dichvu.soNguoiToiDa}"></td>
+                <td th:text="${dichvu.chiPhiThue}"></td>
+                <td th:text="${dichvu.kieuThue.tenKieuThue}"></td>
+                <td th:text="${dichvu.loaiDichVu.tenLoaiDichVu}"></td>
+                <td th:text="${dichvu.trangThai}"></td>
+                <td><a th:href="@{/edit-dichvu/__${dichvu.id}__ }"><i class="fas fa-edit"></i></a></td>
+                <td><a href="#deleteDichvu" class="delete" title="Delete" id="delete" th:data-id="${dichvu.id}"
+                       th:data-name="${dichvu.tenDichVu}"
+                       data-toggle="modal"><i class="far fa-trash-alt"></i></a></td>
+            </tr>
+        </th:block>
+        </tbody>
+    </table>
+    <div>
+        <a th:href="@{'/dichvus'(page=${dichvus.number - 1},search =${search})}"
+           th:if="${dichvus.hasPrevious()}">Previous</a>
+        <span th:text="${dichvus.number + 1}"></span>/<span th:text="${dichvus.totalPages}"></span>
+        <a th:href="@{'/dichvus'(page=${dichvus.number + 1},search =${search})}" th:if="${dichvus.hasNext()}">Next</a>
+    </div>
+</div>
+<div th:replace="/index :: footer"></div>
+<div id="deleteDichvu" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form action="/delete-dichvu" method="post" style="font-size: 17px" >
+            <div class="modal-header">
+                <p class="modal-title">Xóa Dịch Vụ</p>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" name="id" id="id">
+                <p>Bạn Có Muốn Xóa Dịch Vụ</p>
+                <p id="name"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-default">Save changes</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div th:replace="/index :: dangnhap"></div>
+</body>
+<script>
+    $(".delete").click(function () {
+        $("#id").val($(this).data("id"));
+        $("#name").text($(this).data("name"));
+    })
+</script>
+</html>

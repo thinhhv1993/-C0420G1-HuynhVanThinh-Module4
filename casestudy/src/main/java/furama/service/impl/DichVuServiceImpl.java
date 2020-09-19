@@ -20,6 +20,11 @@ public class DichVuServiceImpl implements DichVuService {
     }
 
     @Override
+    public Page<DichVu> findAllByTenDichVuContaining(String name, Pageable pageable) {
+        return this.dichVuRepository.findAllByTenDichVuContaining(name,pageable);
+    }
+
+    @Override
     public DichVu findById(Long id) {
         return this.dichVuRepository.findById(id).orElse(null);
     }

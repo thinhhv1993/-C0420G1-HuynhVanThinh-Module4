@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c3efceb-6cc8-4485-aa40-6d975c12a6c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/BlogSpingbootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/model/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/repository/BlogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/service/Impl/BlogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/java/com/codegym/blogspingboot/service/Impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/resources/templates/blog/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/resources/templates/blog/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/resources/templates/blog/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/main/resources/templates/blog/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai6-JAP/baitap/blog-spingboot/src/test/java/com/codegym/blogspingboot/BlogSpingbootApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="6c3efceb-6cc8-4485-aa40-6d975c12a6c1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +21,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog-spingboot" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -63,6 +37,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598574913558</updated>
       <workItem from="1598574915303" duration="6000" />
+      <workItem from="1600140677878" duration="24000" />
     </task>
     <servers />
   </component>
@@ -74,5 +49,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1598574919034" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1600140700301">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600140700301" />
   </component>
 </project>

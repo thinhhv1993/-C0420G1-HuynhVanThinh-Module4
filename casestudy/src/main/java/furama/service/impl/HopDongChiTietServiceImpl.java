@@ -1,6 +1,7 @@
 package furama.service.impl;
 
 
+import furama.model.HopDong;
 import furama.model.HopDongChiTiet;
 import furama.repository.HopDongChiTietRepository;
 import furama.service.HopDongChiTietService;
@@ -19,6 +20,11 @@ public class HopDongChiTietServiceImpl implements HopDongChiTietService {
     @Override
     public Page<HopDongChiTiet> findAll(Pageable pageable) {
         return this.hopDongChiTietRepository.findAll(pageable);
+    }
+
+    @Override
+    public Page<HopDong> findAllByHopDong_Id(Integer id, Pageable pageable) {
+        return this.hopDongChiTietRepository.findAllByHopDong_Id(id,pageable);
     }
 
     @Override

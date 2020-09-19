@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/index :: head"></head>
+<head>
+    <title>Thêm Hợp Đồng Chi Tiết</title>
+    <style>
+        .footer-copyright {
+            background-color: rgb(8, 95, 86) !important;
+            position: relative;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 1rem;
+            background-color: #efefef;
+            text-align: center;
+        }
+        .input {
+            float: left;
+        }
+        .contact-form .form-control, .contact-form .btn {
+            min-height: 20px;
+            border-radius: 2px;
+        }
+
+        .contact-form .form-control {
+            border-color: #e2c705;
+            height: 30px;
+        }
+
+        .contact-form .form-control:focus {
+            border-color: #d8b012;
+            box-shadow: 0 0 8px #dcae10;
+        }
+        body {
+            background-image:url("") ;
+
+        }
+    </style>
+</head>
+<body>
+<nav th:replace="/index :: header"></nav>
+<ul th:replace="/index :: menu"></ul>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<div>
+    <div class="container-lg" style="font-size: 20px">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="contact-form">
+                    <h1>Thêm Hợp Đồng Chi Tiết</h1>
+                    <form  th:action="@{/create-hopdongchitiet}" th:object="${hopdongchitiet}" method="post">
+                        <label>Khách Hàng : </label>
+                        <input type="hidden" name="hopDong" th:value="${hopdong.id}"  th:text="${hopdong.khachHang.hoTen}">
+                        <div class="container-lg" style="font-size: 20px">
+                            <div class="row">
+                                <div class="col-md-8 mx-auto">
+                                    <div class="contact-form">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>Dịch Vụ Đi Kèm : </label>
+                                                    <select  th:field="*{dichVuDiKem}" >
+                                                        <option th:each="d : ${dichvudikem}" th:value="${d.id}" th:text="${d.tenDichVuDiKem}"></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>Số Lượng : </label>
+                                                    <input type="text" class="form-control" th:field="*{soLuong}" >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Lưu </button>
+                            <button type="reset" class="btn btn-primary"><a th:href="@{/hopdongs}">Hủy</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div th:replace="/index :: footer"></div>
+<div th:replace="/index :: dangnhap"></div>
+</body>
+</html>

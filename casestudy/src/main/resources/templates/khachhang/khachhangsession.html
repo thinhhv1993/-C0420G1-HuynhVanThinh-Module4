@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/index :: head"></head>
+<head>
+    <title>Title</title>
+    <style>
+        button {
+            margin-bottom: 10px;
+        }
+        .custom-search-form{
+            margin-top:5px;
+        }
+        .btn-default {
+            font-size: 20px;
+            padding: 5px;
+            margin-left: 10px;
+        }
+        .form-control {
+            padding: 17px 10px;
+            line-height: 37px;
+        }
+    </style>
+</head>
+<body>
+<nav th:replace="/index :: header"></nav>
+<ul th:replace="/index :: menu"></ul>
+<h5 style="background-color: white">Lịch Sử Chỉnh Sửa Khách Hàng</h5>
+<div class="container">
+    <table class="table table-sm table-primary">
+        <thead>
+        <tr>
+            <th>STT</th>
+            <th>Mã Khách Hàng</th>
+            <th>Tên Khách Hàng</th>
+            <th>Loại Khách Hàng</th>
+            <th>Ngày Sinh</th>
+            <th>Giới Tính</th>
+            <th>CMND</th>
+            <th>Số ĐT</th>
+            <th>Email</th>
+            <th>Địa Chỉ</th>
+        </tr>
+        </thead>
+        <tbody>
+        <th:block th:each="khachhang : ${list.keySet()}">
+            <tr>
+                <td ><a th:href="@{/view-khachhang/__${khachhang.id}__ }" th:text="${khachhang.id}"></a></td>
+                <td th:text="${khachhang.idKhachHang}"></td>
+                <td th:text="${khachhang.hoTen}"></td>
+                <td th:text="${khachhang.loaiKhachHang.tenLoaiKhachHang}"></td>
+                <td th:text="${khachhang.ngaySinh}"></td>
+                <td th:text="${khachhang.gioiTinh}"></td>
+                <td th:text="${khachhang.soCMND}"></td>
+                <td th:text="${khachhang.sDT}"></td>
+                <td th:text="${khachhang.email}"></td>
+                <td th:text="${khachhang.diaChi}"></td>
+        </th:block>
+        </tbody>
+    </table>
+</div>
+<div th:replace="/index :: footer"></div>
+<div th:replace="/index :: dangnhap"></div>
+</body>
+</html>

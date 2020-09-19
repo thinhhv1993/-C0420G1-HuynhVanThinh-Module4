@@ -8,4 +8,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface DichVuRepository extends JpaRepository<DichVu, Long> {
     Page<DichVu> findAll(Pageable pageable);
+
+    Page<DichVu> findAllByTenDichVuContaining(String name, Pageable pageable);
 }

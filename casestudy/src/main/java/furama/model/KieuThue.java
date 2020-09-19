@@ -14,9 +14,6 @@ public class KieuThue {
 
     private String gia;
 
-    @OneToMany
-    private List<DichVu> dichVuList;
-
     public KieuThue() {
     }
 
@@ -44,11 +41,4 @@ public class KieuThue {
         this.gia = gia;
     }
 
-    public List<DichVu> getDichVuList() {
-        return dichVuList;
-    }
-
-    public void setDichVuList(List<DichVu> dichVuList) {
-        this.dichVuList = dichVuList;
-    }
 }

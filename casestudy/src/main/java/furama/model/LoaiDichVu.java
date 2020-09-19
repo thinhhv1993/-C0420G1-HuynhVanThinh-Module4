@@ -12,8 +12,6 @@ public class LoaiDichVu {
 
     private String tenLoaiDichVu;
 
-    @OneToMany
-    private List<DichVu> dichVus;
 
     public LoaiDichVu() {
     }
@@ -34,11 +32,4 @@ public class LoaiDichVu {
         this.tenLoaiDichVu = tenLoaiDichVu;
     }
 
-    public List<DichVu> getDichVus() {
-        return dichVus;
-    }
-
-    public void setDichVus(List<DichVu> dichVus) {
-        this.dichVus = dichVus;
-    }
 }

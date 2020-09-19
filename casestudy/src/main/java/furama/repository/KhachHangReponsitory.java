@@ -7,4 +7,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface KhachHangReponsitory extends JpaRepository<KhachHang, Long> {
     Page<KhachHang> findAll(Pageable pageable);
+
+    Page<KhachHang> findAllByHoTenContaining(String name, Pageable pageable);
 }

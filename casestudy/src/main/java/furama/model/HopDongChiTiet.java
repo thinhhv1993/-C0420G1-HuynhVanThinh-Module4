@@ -9,7 +9,7 @@ public class HopDongChiTiet {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.REMOVE)
     @JoinColumn(name = "hopdong_idHopDong")
     private HopDong hopDong;
 

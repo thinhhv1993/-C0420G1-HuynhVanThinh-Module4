@@ -1,6 +1,8 @@
 package furama.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.Pattern;
 
 @Entity
 public class DichVu {
@@ -8,27 +10,31 @@ public class DichVu {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Pattern(regexp="(DV)[\\d]{4,}",message = "Mã Dịch Vụ Có Dạng DVXXXX ")
     private String idDichVu;
 
     private String tenDichVu;
 
+    @Min(value = 0, message = "Diện tích phải là số dương")
     private String dienTich;
-
+    @Min(value = 0, message = "Số Tầng phải là số dương")
     private String soTang;
-
+    @Min(value = 0, message = "Số người tối đa phải là số dương")
     private String soNguoiToiDa;
-
+    @Min(value = 0, message = "Chi phí thuê phải là số dương")
     private String chiPhiThue;
-
-    private String trangThai;
 
     @ManyToOne
     @JoinColumn(name = "loaidichvu_id")
-    private DichVu dichVu;
+    private LoaiDichVu loaiDichVu;
 
     @ManyToOne
     @JoinColumn(name = "kieuthue_id")
     private KieuThue kieuThue;
+
+
+    private String trangThai;
+
 
     public DichVu() {
     }
@@ -97,12 +103,12 @@ public class DichVu {
         this.trangThai = trangThai;
     }
 
-    public DichVu getDichVu() {
-        return dichVu;
+    public LoaiDichVu getLoaiDichVu() {
+        return loaiDichVu;
     }
 
-    public void setDichVu(DichVu dichVu) {
-        this.dichVu = dichVu;
+    public void setLoaiDichVu(LoaiDichVu loaiDichVu) {
+        this.loaiDichVu = loaiDichVu;
     }
 
     public KieuThue getKieuThue() {

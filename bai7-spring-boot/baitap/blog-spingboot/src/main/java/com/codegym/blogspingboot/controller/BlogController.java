@@ -77,7 +77,7 @@ public class BlogController {
     public ModelAndView showEditForm(@PathVariable Long id){
         Blog blog = blogService.findById(id);
         if(blog != null) {
-            ModelAndView modelAndView = new ModelAndView("blog//blog/edit");
+            ModelAndView modelAndView = new ModelAndView("blog/blog/edit");
             modelAndView.addObject("categorys", categoryService.findAll(Pageable.unpaged()));
             modelAndView.addObject("blog", blog);
             return modelAndView;

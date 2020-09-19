@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/index :: head"></head>
+<head>
+    <title>Dịch Vụ</title>
+    <style>
+        .footer-copyright {
+            background-color: rgb(8, 95, 86) !important;
+            position: relative;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 1rem;
+            background-color: #efefef;
+            text-align: center;
+        }
+        .input {
+            float: left;
+        }
+        .contact-form .form-control, .contact-form .btn {
+            min-height: 20px;
+            border-radius: 2px;
+        }
+
+        .contact-form .form-control {
+            border-color: #e2c705;
+            height: 30px;
+        }
+
+        .contact-form .form-control:focus {
+            border-color: #d8b012;
+            box-shadow: 0 0 8px #dcae10;
+        }
+        body {
+            background-image:url("") ;
+        }
+    </style>
+</head>
+<body>
+<nav th:replace="/index :: header"></nav>
+<ul th:replace="/index :: menu"></ul>
+<div>
+    <h3>Thông Tin Hợp Đồng</h3>
+    <div class="container-lg" style="font-size: 20px">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="contact-form">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Tên Khách Hàng : </label>
+                                <label th:text="${hopdong.khachHang.hoTen}" ></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Tên Dịch Vụ : </label>
+                                <label th:text="${hopdong.dichVu.tenDichVu}" ></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Ngày Làm Hợp Đồng : </label>
+                                <label th:text="${hopdong.ngayBatDau}" ></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Ngày Kết Thúc : </label>
+                                <label th:text="${hopdong.ngayKetthuc}" ></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Tiền Đặt Cọc: </label>
+                                <label th:text="${hopdong.soTienCocTruoc}" ></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Tổng Tiền Thanh Toán: </label>
+                                <label th:text="${hopdong.tongTienThanhToan}" ></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div th:replace="/index :: footer"></div>
+<div th:replace="/index :: dangnhap"></div>
+</body>
+</html>

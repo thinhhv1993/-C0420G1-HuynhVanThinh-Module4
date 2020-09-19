@@ -2,9 +2,128 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head th:replace="/index :: head"></head>
 <head>
-    <title>Title</title>
-</head>
-<body th:replace="/index :: body">
+    <title>Thêm Khách Hàng</title>
+    <style>
+        .footer-copyright {
+            background-color: rgb(8, 95, 86) !important;
+            position: relative;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 1rem;
+            background-color: #efefef;
+            text-align: center;
+        }
+        .input {
+            float: left;
+        }
+        .contact-form .form-control, .contact-form .btn {
+            min-height: 20px;
+            border-radius: 2px;
+        }
 
+        .contact-form .form-control {
+            border-color: #e2c705;
+            height: 30px;
+        }
+
+        .contact-form .form-control:focus {
+            border-color: #d8b012;
+            box-shadow: 0 0 8px #dcae10;
+        }
+        body {
+            background-image:url("") ;
+
+        }
+    </style>
+</head>
+<body>
+<nav th:replace="/index :: header"></nav>
+<ul th:replace="/index :: menu"></ul>
+<div>
+    <h3>Thông Tin Khách Hàng</h3>
+    <div class="container-lg" style="font-size: 20px">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="contact-form">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Loại Khách : </label>
+                                    <label th:text="${khachhang.loaiKhachHang.tenLoaiKhachHang}" ></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Mã Khách Hàng : </label>
+                                    <label th:text="${khachhang.idKhachHang}" ></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Tên Khách Hàng : </label>
+                                    <label th:text="${khachhang.hoTen}" ></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Ngày Tháng Năm Sinh : </label>
+                                    <label th:text="${khachhang.ngaySinh}" ></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Giới Tính : </label>
+                                    <label th:text="${khachhang.gioiTinh}" ></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>CMND : </label>
+                                    <label th:text="${khachhang.soCMND}" ></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>SDT : </label>
+                                    <label th:text="${khachhang.sDT}" ></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Email : </label>
+                                    <label th:text="${khachhang.email}" ></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Địa Chỉ : </label>
+                                    <label th:text="${khachhang.diaChi}" ></label>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div th:replace="/index :: footer"></div>
+<div th:replace="/index :: dangnhap"></div>
 </body>
 </html>

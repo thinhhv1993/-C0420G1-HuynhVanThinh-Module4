@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/index :: head"></head>
+<head>
+    <title>Hợp Đồng</title>
+    <style>
+        button {
+            margin-bottom: 10px;
+        }
+
+        .custom-search-form {
+            margin-top: 5px;
+        }
+
+        .btn-default {
+            font-size: 20px;
+            padding: 5px;
+            margin-left: 10px;
+        }
+
+        .form-control {
+            padding: 17px 10px;
+            line-height: 37px;
+        }
+    </style>
+</head>
+<body>
+<nav th:replace="/index :: header"></nav>
+<ul th:replace="/index :: menu"></ul>
+<div class="container">
+    <table class="table table-sm table-primary">
+        <thead>
+        <tr>
+            <th>STT</th>
+            <th>Tên Khách Hàng</th>
+            <th>Tên Dịch Vụ</th>
+            <th>Ngày Làm Hợp Đồng</th>
+            <th>Ngày Kết Thúc</th>
+            <th>Tiền Đặt Cọc</th>
+            <th>Tổng Tiền</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <th:block th:each="hopdong : ${hopdong}">
+            <tr>
+                <td th:text="${hopdong.id}"></td>
+                <td th:text="${hopdong.khachHang.hoTen}"></td>
+                <td th:text="${hopdong.dichVu.tenDichVu}"></td>
+                <td th:text="${hopdong.ngayBatDau}"></td>
+                <td th:text="${hopdong.ngayKetthuc}"></td>
+                <td th:text="${hopdong.soTienCocTruoc}"></td>
+                <td th:text="${hopdong.tongTienThanhToan}" ></td>
+        </th:block>
+        </tbody>
+    </table>
+</div>
+<div th:replace="/index :: footer"></div>
+<div th:replace="/index :: dangnhap"></div>
+</body>
+</html>

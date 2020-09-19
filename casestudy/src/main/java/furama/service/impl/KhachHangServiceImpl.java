@@ -10,6 +10,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 
+
+
 @Service
 public class KhachHangServiceImpl implements KhachHangService {
 
@@ -19,6 +21,11 @@ public class KhachHangServiceImpl implements KhachHangService {
     @Override
     public Page<KhachHang> findAll(Pageable pageable) {
         return this.khachHangReponsitory.findAll(pageable);
+    }
+
+    @Override
+    public Page<KhachHang> findAllByHoTenContaining(String name, Pageable pageable) {
+        return this.khachHangReponsitory.findAllByHoTenContaining(name,pageable);
     }
 
     @Override
@@ -35,4 +42,5 @@ public class KhachHangServiceImpl implements KhachHangService {
     public void remove(Long id) {
         this.khachHangReponsitory.deleteById(id);
     }
+
 }

@@ -48,8 +48,9 @@
         <div class="row">
             <div class="col-md-8 mx-auto">
                 <div class="contact-form">
-                    <h1>Thêm Khách Hàng</h1>
+                    <h1>Sửa Khách Hàng</h1>
                     <form  th:action="@{/edit-khachhang}" th:object="${khachhang}" method="post">
+                        <input th:type="hidden" name="id" th:field="*{id}">
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
@@ -65,6 +66,7 @@
                                 <div class="form-group">
                                     <label>Mã Khách Hàng </label>
                                     <input type="text" class="form-control"  th:field="*{idKhachHang}">
+                                    <p style="color: red" th:if="${#fields.hasErrors('idKhachHang')}" th:errors="*{idKhachHang}"></p>
                                 </div>
                             </div>
                         </div>
@@ -100,6 +102,7 @@
                                 <div class="form-group">
                                     <label for="customerIdCard">CMND</label>
                                     <input type="text" class="form-control" id="customerIdCard" th:field="*{soCMND}" >
+                                    <p style="color: red" th:if="${#fields.hasErrors('soCMND')}" th:errors="*{soCMND}"></p>
                                 </div>
                             </div>
                         </div>
@@ -108,6 +111,7 @@
                                 <div class="form-group">
                                     <label for="customerPhone">SDT</label>
                                     <input type="text" class="form-control" id="customerPhone" th:field="*{sDT}" >
+                                    <p style="color: red" th:if="${#fields.hasErrors('sDT')}" th:errors="*{sDT}"></p>
                                 </div>
                             </div>
                         </div>
@@ -116,6 +120,7 @@
                                 <div class="form-group">
                                     <label for="customerEmail">Email</label>
                                     <input type="text" class="form-control" id="customerEmail" th:field="*{email}" >
+                                    <p style="color: red" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></p>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +135,7 @@
                         </div>
                         <div class="text-center">
                             <button type="submit" class="btn btn-primary">Lưu </button>
-                            <button type="reset" class="btn btn-primary">Hủy</button>
+                            <button type="reset" class="btn btn-primary"><a th:href="@{/khachhangs}">Hủy</a></button>
                         </div>
                     </form>
                 </div>
@@ -139,5 +144,6 @@
     </div>
 </div>
 <div th:replace="/index :: footer"></div>
+<div th:replace="/index :: dangnhap"></div>
 </body>
 </html>

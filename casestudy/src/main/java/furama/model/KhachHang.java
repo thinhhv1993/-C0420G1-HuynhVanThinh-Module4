@@ -1,7 +1,10 @@
 package furama.model;
 
 
+import furama.validate.CheckPhone;
+
 import javax.persistence.*;
+import javax.validation.constraints.Pattern;
 
 @Entity
 public class KhachHang {
@@ -10,6 +13,7 @@ public class KhachHang {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Pattern(regexp="(KH)[\\d]{4,}",message = "Mã Khách Hàng Có Dạng KHXXXX ")
     private String idKhachHang;
 
     private String hoTen;
@@ -18,11 +22,15 @@ public class KhachHang {
 
     private String gioiTinh;
 
+    @Pattern(regexp="[\\d]{3,}\\s[\\d]{3,}\\s[\\d]{3,}",message = "CMND Không Đúng")
     private String soCMND;
 
+    @CheckPhone
     private String sDT;
 
+    @Pattern(regexp="^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)$", message = "Email Sai Định Dạng")
     private String email;
+
 
     private String diaChi;
 

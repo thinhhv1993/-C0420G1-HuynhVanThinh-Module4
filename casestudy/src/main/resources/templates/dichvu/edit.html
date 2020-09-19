@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/index :: head"></head>
+<head>
+    <title>Sửa Dịch Vụ</title>
+    <style>
+        .footer-copyright {
+            background-color: rgb(8, 95, 86) !important;
+            position: relative;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 1rem;
+            background-color: #efefef;
+            text-align: center;
+        }
+        .input {
+            float: left;
+        }
+        .contact-form .form-control, .contact-form .btn {
+            min-height: 20px;
+            border-radius: 2px;
+        }
+
+        .contact-form .form-control {
+            border-color: #e2c705;
+            height: 30px;
+        }
+
+        .contact-form .form-control:focus {
+            border-color: #d8b012;
+            box-shadow: 0 0 8px #dcae10;
+        }
+        body {
+            background-image:url("") ;
+
+        }
+    </style>
+</head>
+<body>
+<nav th:replace="/index :: header"></nav>
+<ul th:replace="/index :: menu"></ul>
+<th:block th:if="${message}">
+    <p th:field="${message}"></p>
+</th:block>
+<div>
+    <div class="container-lg" style="font-size: 20px">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <div class="contact-form">
+                    <h1>Sửa Dịch Vụ</h1>
+                    <form  th:action="@{/edit-dichvu}" th:object="${dichvu}" method="post">
+                        <input th:type="hidden" name="id" th:field="*{id}">
+                        <div class="container-lg" style="font-size: 20px">
+                            <div class="row">
+                                <div class="col-md-8 mx-auto">
+                                    <div class="contact-form">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>Mã Dịch Vụ : </label>
+                                                    <input type="text" class="form-control" th:field="${dichvu.idDichVu}" >
+                                                    <p style="color: red" th:if="${#fields.hasErrors('idDichVu')}" th:errors="*{idDichVu}"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>Tên Dịch Vụ : </label>
+                                                    <input  type="text" class="form-control" th:field="${dichvu.tenDichVu}" >
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>Diện Tích : </label>
+                                                    <input type="text" class="form-control" th:field="${dichvu.dienTich}" >
+                                                    <p style="color: red" th:if="${#fields.hasErrors('dienTich')}" th:errors="*{dienTich}"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>Số tầng : </label>
+                                                    <input type="text" class="form-control" th:field="${dichvu.soTang}" >
+                                                    <p style="color: red" th:if="${#fields.hasErrors('soTang')}" th:errors="*{soTang}"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>Số người tối đa : </label>
+                                                    <input  type="text" class="form-control" th:field="${dichvu.soNguoiToiDa}" >
+                                                    <p style="color: red" th:if="${#fields.hasErrors('soNguoiToiDa')}" th:errors="*{soNguoiToiDa}"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>Chi Phí Thue : </label>
+                                                    <input type="text" class="form-control" th:field="${dichvu.chiPhiThue}" >
+                                                    <p style="color: red" th:if="${#fields.hasErrors('chiPhiThue')}" th:errors="*{chiPhiThue}"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>Kiểu thuê </label>
+                                                    <select  th:field="*{kieuThue}">
+                                                        <option th:each="k : ${kieuthue}" th:value="${k.id}" th:text="${k.tenKieuThue}" th:selected="(${k.id} == *{kieuThue.id})"  class="form-control" ></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>Loại Dịch Vụ </label>
+                                                    <select  th:field="*{loaiDichVu}"  >
+                                                        <option th:each="l : ${loaidichvu}" th:value="${l.id}" th:text="${l.tenLoaiDichVu}" th:selected="(${l.id} == *{loaiDichVu.id})"  class="form-control" ></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>Trạng Thái : </label>
+                                                    <input type="text"  class="form-control"  th:field="${dichvu.trangThai}" >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Lưu </button>
+                            <button type="reset" class="btn btn-primary"><a th:href="@{/dichvus}">Hủy</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div th:replace="/index :: footer"></div>
+<div th:replace="/index :: dangnhap"></div>
+</body>
+</html>
