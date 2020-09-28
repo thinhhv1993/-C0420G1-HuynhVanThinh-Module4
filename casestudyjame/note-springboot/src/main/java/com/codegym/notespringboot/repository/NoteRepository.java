@@ -13,5 +13,7 @@ public interface NoteRepository extends JpaRepository<Note,Long> {
 
     Page<Note> findAllByTitleContainingOrContentContaining(String name,String name1, Pageable pageable);
 
+    Page<Note> findAllByNoteType_NameAndTitleContainingOrContentContaining(String noteType,String name1,String name,Pageable pageable);
+
     Page<Note> findAllByNoteType_Name(String name,Pageable pageable);
 }

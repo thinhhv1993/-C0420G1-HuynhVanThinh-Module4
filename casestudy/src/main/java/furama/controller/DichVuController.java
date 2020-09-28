@@ -2,7 +2,9 @@ package furama.controller;
 
 
 import furama.model.DichVu;
+import furama.model.HopDong;
 import furama.service.impl.DichVuServiceImpl;
+import furama.service.impl.HopDongServiceImpl;
 import furama.service.impl.KieuThueServiceImpl;
 import furama.service.impl.LoaiDichVuServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +16,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 
 @Controller
@@ -27,6 +30,9 @@ public class DichVuController {
 
     @Autowired
     KieuThueServiceImpl kieuThueService;
+
+    @Autowired
+    HopDongServiceImpl hopDongService;
 
 
     @GetMapping("/dichvus")
@@ -68,17 +74,17 @@ public class DichVuController {
 
     @PostMapping("/create-dichvu")
     public ModelAndView saveDichVus(@Validated @ModelAttribute("dichvu") DichVu dichVu, BindingResult bindingResult) {
-            ModelAndView modelAndView = new ModelAndView("dichvu/create");
-            modelAndView.addObject("loaidichvu", loaiDichVuService.findAll());
-            modelAndView.addObject("kieuthue", kieuThueService.findAll());
-            if (bindingResult.hasErrors()) {
-                return modelAndView;
-            } else {
-                dichVuService.save(dichVu);
-                modelAndView.addObject("message", "Them Dich Vu Thanh Cong");
-            }
-            modelAndView.addObject("dichvu", new DichVu());
+        ModelAndView modelAndView = new ModelAndView("dichvu/create");
+        modelAndView.addObject("loaidichvu", loaiDichVuService.findAll());
+        modelAndView.addObject("kieuthue", kieuThueService.findAll());
+        if (bindingResult.hasErrors()) {
             return modelAndView;
+        } else {
+            dichVuService.save(dichVu);
+            modelAndView.addObject("message", "Them Dich Vu Thanh Cong");
+        }
+        modelAndView.addObject("dichvu", new DichVu());
+        return modelAndView;
     }
 
     @GetMapping("/edit-dichvu/{id}")
@@ -113,8 +119,8 @@ public class DichVuController {
     }
 
     @PostMapping("/delete-dichvu")
-    public String deleteKhachHang(@RequestParam Long id) {
-        dichVuService.remove(id);
+    public String deleteKhachHang(@RequestParam Long id, RedirectAttributes redirectAttributes) {
+        dichVuService.remove(id,redirectAttributes);
         return "redirect:/dichvus";
     }
 

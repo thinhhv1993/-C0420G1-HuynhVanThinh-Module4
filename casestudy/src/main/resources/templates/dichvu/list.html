@@ -22,9 +22,12 @@
             padding: 17px 10px;
             line-height: 37px;
         }
+        .menu {
+            float: none;
+        }
     </style>
 </head>
-<body>
+<body onload="modalOpen()">
 <nav th:replace="/index :: header"></nav>
 <ul th:replace="/index :: menu"></ul>
 <div class="container">
@@ -116,12 +119,37 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Dịch Vụ Đang Được Sử Dụng</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<th:block th:if="${message}">
+    <input type="text" th:value="${message}" id="abc">
+</th:block>
 <div th:replace="/index :: dangnhap"></div>
 </body>
 <script>
     $(".delete").click(function () {
         $("#id").val($(this).data("id"));
         $("#name").text($(this).data("name"));
-    })
+    });
+    function modalOpen() {
+        var temp = document.getElementById("abc").innerHTML;
+        if (temp !== "") {
+            $('#myModal').modal('show');
+        }
+    }
 </script>
 </html>

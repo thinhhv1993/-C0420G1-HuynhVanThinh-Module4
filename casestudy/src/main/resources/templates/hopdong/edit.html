@@ -35,6 +35,9 @@
             background-image:url("") ;
 
         }
+        .menu {
+            float: none;
+        }
     </style>
 </head>
 <body>
@@ -48,7 +51,7 @@
         <div class="row">
             <div class="col-md-8 mx-auto">
                 <div class="contact-form">
-                    <h1>Sửa Hợp Đồng</h1>
+                    <h3>Sửa Hợp Đồng</h3>
                     <form  th:action="@{/edit-hopdong}" th:object="${hopdong}" method="post">
                         <input th:type="hidden" name="id" th:field="*{id}">
                         <div class="container-lg" style="font-size: 20px">
@@ -56,7 +59,7 @@
                                 <div class="col-md-8 mx-auto">
                                     <div class="contact-form">
                                         <div class="row">
-                                            <div class="col-sm-6">
+                                            <div class="col-sm-10">
                                                 <div class="form-group">
                                                     <label> Khách Hàng : </label>
                                                     <select  th:field="*{khachHang}" >
@@ -75,28 +78,22 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Ngày Bắt Đầu : </label>
-                                                    <input type="text" class="form-control" th:field="${hopdong.ngayBatDau}" >
-                                                </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-6">Ngày Làm Hợp Đồng : </label>
+                                            <div class="col-6">
+                                                <input type="date" class="form-control" th:field="*{ngayBatDau}">
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Ngày Kết Thúc : </label>
-                                                    <input type="text" class="form-control" th:field="${hopdong.ngayKetthuc}" >
-                                                </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-6">Ngày Kết Thúc : </label>
+                                            <div class="col-6">
+                                                <input type="date" class="form-control" th:field="*{ngayKetthuc}">
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Số Tiền Cọc Trước : </label>
-                                                    <input  type="text" class="form-control" th:field="${hopdong.soTienCocTruoc}" >
-                                                </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-6">Số Tiền Đặt trước : </label>
+                                            <div class="col-6">
+                                                <input type="text" class="form-control" th:field="*{soTienCocTruoc}">
                                             </div>
                                         </div>
                                     </div>

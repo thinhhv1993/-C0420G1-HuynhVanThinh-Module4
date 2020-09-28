@@ -2,6 +2,7 @@ package com.codegym.notespringboot.model;
 
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
 
 @Entity
 public class Note {
@@ -10,6 +11,7 @@ public class Note {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Min(value = 0, message = "Diện tích phải là số dương")
     private String title;
     private String content;
 

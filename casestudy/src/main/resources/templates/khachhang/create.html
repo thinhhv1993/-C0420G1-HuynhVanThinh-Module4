@@ -14,9 +14,11 @@
             background-color: #efefef;
             text-align: center;
         }
+
         .input {
             float: left;
         }
+
         .contact-form .form-control, .contact-form .btn {
             min-height: 20px;
             border-radius: 2px;
@@ -31,9 +33,12 @@
             border-color: #d8b012;
             box-shadow: 0 0 8px #dcae10;
         }
-        body {
-            background-image:url("") ;
 
+        body {
+            background-image: url("");
+        }
+        .menu {
+            float: none;
         }
     </style>
 </head>
@@ -48,99 +53,89 @@
         <div class="row">
             <div class="col-md-8 mx-auto">
                 <div class="contact-form">
-                    <h1>Thêm Khách Hàng</h1>
-                    <form  th:action="@{/create-khachhang}" th:object="${khachhang}" method="post">
+                    <h3>Thêm Khách Hàng</h3>
+                    <form th:action="@{/create-khachhang}" th:object="${khachhang}" method="post">
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label for="customerTypeId">Loại Khách</label>
-                                    <select th:field="*{loaiKhachHang}" id="customerTypeId" >
-                                        <option th:each="l : ${loaikhachhang}" th:value="${l.id}" th:text="${l.tenLoaiKhachHang}"></option>
+                                    <label>Loại Khách : </label>
+                                    <select th:field="*{loaiKhachHang}">
+                                        <option th:each="l : ${loaikhachhang}" th:value="${l.id}"
+                                                th:text="${l.tenLoaiKhachHang}"></option>
                                     </select>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label>Mã Khách Hàng </label>
-                                    <input type="text" class="form-control"  th:field="*{idKhachHang}">
-                                    <p style="color: red" th:if="${#fields.hasErrors('idKhachHang')}" th:errors="*{idKhachHang}"></p>
-                                </div>
+                        <div class="form-group row">
+                            <label class="col-form-label col-4">Mã Khách Hàng :</label>
+                            <div class="col-8">
+                                <input type="text" class="form-control" th:field="*{idKhachHang}" required="required">
+                            </div>
+                            <p style="color: red" th:if="${#fields.hasErrors('idKhachHang')}"
+                               th:errors="*{idKhachHang}"></p>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-form-label col-4">Tên Khách Hàng :</label>
+                            <div class="col-8">
+                                <input type="text" class="form-control" th:field="*{hoTen}">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-form-label col-4">Ngày Tháng Năm Sinh :</label>
+                            <div class="col-8">
+                                <input type="date" class="form-control" th:field="*{ngaySinh}">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label for="customerName">Tên Khách Hàng </label>
-                                    <input type="text" class="form-control" id="customerName" th:field="*{hoTen}">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="customerBirthday">Ngày Tháng Năm Sinh</label>
-                                    <input type="date" class="form-control" id="customerBirthday" th:field="*{ngaySinh}">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="customerGender">Giới Tính</label>
-                                    <select th:field="*{gioiTinh}" id="customerGender" >
+                                    <label>Giới Tính : </label>
+                                    <select th:field="*{gioiTinh}">
                                         <option value="Nam">Nam</option>
                                         <option value="Nữ">Nữ</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="customerIdCard">CMND</label>
-                                    <input type="text" class="form-control" id="customerIdCard" th:field="*{soCMND}" >
-                                    <p style="color: red" th:if="${#fields.hasErrors('soCMND')}" th:errors="*{soCMND}"></p>
-                                </div>
+                        <div class="form-group row">
+                            <label class="col-form-label col-4">CMND :</label>
+                            <div class="col-8">
+                                <input type="text" class="form-control" th:field="*{soCMND}">
+                                <p style="color: red" th:if="${#fields.hasErrors('soCMND')}"
+                                   th:errors="*{soCMND}"></p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="customerPhone">SDT</label>
-                                    <input type="text" class="form-control" id="customerPhone" th:field="*{sDT}" >
-                                    <p style="color: red" th:if="${#fields.hasErrors('sDT')}" th:errors="*{sDT}"></p>
-                                </div>
+                        <div class="form-group row">
+                            <label class="col-form-label col-4">SDT :</label>
+                            <div class="col-8">
+                                <input type="text" class="form-control" th:field="*{sDT}">
+                                <p style="color: red" th:if="${#fields.hasErrors('sDT')}" th:errors="*{sDT}"></p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="customerEmail">Email</label>
-                                    <input type="text" class="form-control" id="customerEmail" th:field="*{email}" >
-                                    <p style="color: red" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></p>
-                                </div>
+                        <div class="form-group row">
+                            <label class="col-form-label col-4">Email :</label>
+                            <div class="col-8">
+                                <input type="text" class="form-control" th:field="*{email}">
+                                <p style="color: red" th:if="${#fields.hasErrors('email')}"
+                                   th:errors="*{email}"></p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="customerAddress">Địa Chỉ</label>
-                                    <input type="text" class="form-control" id="customerAddress"
-                                           th:field="*{diaChi}" >
-                                </div>
+                        <div class="form-group row">
+                            <label class="col-form-label col-4">Địa Chỉ :</label>
+                            <div class="col-8">
+                                <input type="text" class="form-control"
+                                       th:field="*{diaChi}">
                             </div>
                         </div>
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-primary">Lưu </button>
-                            <button type="reset" class="btn btn-primary"><a th:href="@{/khachhangs}">Hủy</a></button>
-                        </div>
-                    </form>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                    <button type="reset" class="btn btn-primary"><a th:href="@{/khachhangs}">Hủy</a></button>
                 </div>
+                </form>
             </div>
         </div>
     </div>
+</div>
 </div>
 <div th:replace="/index :: footer"></div>
 <div th:replace="/index :: dangnhap"></div>

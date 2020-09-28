@@ -39,7 +39,7 @@ public class HopDongController {
     @Autowired
     private HopDongChiTietServiceImpl hopDongChiTietService;
 
-    @ModelAttribute("hopdong")
+    @ModelAttribute("/hopdong")
     public HopDong setUpUserForm(){
         return new HopDong();
     }
@@ -155,6 +155,9 @@ public class HopDongController {
                 cookieArray = ck.getValue();
                 cookieArray1 =  cookieArray.split("n");
                 for (String ste : cookieArray1) {
+                    if(ste.equals("")){
+                        continue;
+                    }
                     idhopdong = Long.parseLong(ste);
                  list.add(hopDongService.addCookies(idhopdong));
                 }

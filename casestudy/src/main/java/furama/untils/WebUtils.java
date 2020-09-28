@@ -4,9 +4,9 @@ import java.util.Collection;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 
-public class WebUtils1 {
+public class WebUtils {
 
-    public static String toString1(User user) {
+    public static String toString(User user) {
         StringBuilder sb = new StringBuilder();
         sb.append("UserName:").append(user.getUsername());
         Collection<GrantedAuthority> authorities = user.getAuthorities();

@@ -35,6 +35,10 @@ public class NoteServiceImpl implements NoteService {
         return this.noteRepository.findAllByTitleContainingOrContentContaining(name,name1,pageable);
     }
 
+    @Override
+    public Page<Note> findAllByNoteType_NameAndTitleContainingOrContentContaining(String noteType, String name1, String name, Pageable pageable) {
+        return this.noteRepository.findAllByNoteType_NameAndTitleContainingOrContentContaining(noteType,name1,name,pageable);
+    }
 
     @Override
     public Page<Note> findAllByNoteType_Name(String name, Pageable pageable) {
@@ -68,8 +72,22 @@ public class NoteServiceImpl implements NoteService {
         for (Note note : this.fillAll()) {
             list.add(note);
         }
-        out.write("{" + "\n".getBytes() + "\"Note\" :  \n".getBytes() + list.toString() + '\n' + "  " + '\n' + "}");
+        out.write("{" + "\n" + "\"Note\" :  \n" + list.toString() + '\n' + "  " + '\n' + "}");
         out.newLine();
         out.close();
+    }
+
+    public Page<Note>  search(Pageable pageable, String search,String searchNoteType){
+        Page<Note> notes = null;
+        if (search.equals("") && searchNoteType.equals("all")) {
+            notes = this.findAll(pageable);
+        } else if (!search.equals("") && searchNoteType.equals("all")) {
+            notes = this.findAllByTitleContainingOrContentContaining(search, search, pageable);
+        } else if (search.equals("") && !searchNoteType.equals("all")) {
+            notes = this.findAllByNoteType_Name(searchNoteType, pageable);
+        } else if (!search.equals("") && !searchNoteType.equals("all")) {
+            notes = this.findAllByNoteType_NameAndTitleContainingOrContentContaining(searchNoteType,search,search,pageable);
+        }
+        return notes;
     }
 }

@@ -35,6 +35,9 @@
             background-image:url("") ;
 
         }
+        .menu {
+            float: none;
+        }
     </style>
 </head>
 <body>
@@ -48,64 +51,52 @@
         <div class="row">
             <div class="col-md-8 mx-auto">
                 <div class="contact-form">
-                    <h1>Sửa Dịch Vụ</h1>
+                    <h3>Sửa Dịch Vụ</h3>
                     <form  th:action="@{/edit-dichvu}" th:object="${dichvu}" method="post">
                         <input th:type="hidden" name="id" th:field="*{id}">
                         <div class="container-lg" style="font-size: 20px">
                             <div class="row">
                                 <div class="col-md-8 mx-auto">
                                     <div class="contact-form">
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Mã Dịch Vụ : </label>
-                                                    <input type="text" class="form-control" th:field="${dichvu.idDichVu}" >
-                                                    <p style="color: red" th:if="${#fields.hasErrors('idDichVu')}" th:errors="*{idDichVu}"></p>
-                                                </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-6">Mã Dịch Vụ : </label>
+                                            <div class="col-6">
+                                                <input type="text" class="form-control" th:field="${dichvu.idDichVu}" >
+                                                <p style="color: red" th:if="${#fields.hasErrors('idDichVu')}" th:errors="*{idDichVu}"></p>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Tên Dịch Vụ : </label>
-                                                    <input  type="text" class="form-control" th:field="${dichvu.tenDichVu}" >
-                                                </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-6">Tên Dịch Vụ : </label>
+                                            <div class="col-6">
+                                                <input  type="text" class="form-control" th:field="${dichvu.tenDichVu}" >
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Diện Tích : </label>
-                                                    <input type="text" class="form-control" th:field="${dichvu.dienTich}" >
-                                                    <p style="color: red" th:if="${#fields.hasErrors('dienTich')}" th:errors="*{dienTich}"></p>
-                                                </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-6"> Diện Tích : </label>
+                                            <div class="col-6">
+                                                <input type="text" class="form-control" th:field="${dichvu.dienTich}" >
+                                                <p style="color: red" th:if="${#fields.hasErrors('dienTich')}" th:errors="*{dienTich}"></p>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Số tầng : </label>
-                                                    <input type="text" class="form-control" th:field="${dichvu.soTang}" >
-                                                    <p style="color: red" th:if="${#fields.hasErrors('soTang')}" th:errors="*{soTang}"></p>
-                                                </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-6"> Số tầng : </label>
+                                            <div class="col-6">
+                                                <input type="text" class="form-control" th:field="${dichvu.soTang}" >
+                                                <p style="color: red" th:if="${#fields.hasErrors('soTang')}" th:errors="*{soTang}"></p>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Số người tối đa : </label>
-                                                    <input  type="text" class="form-control" th:field="${dichvu.soNguoiToiDa}" >
-                                                    <p style="color: red" th:if="${#fields.hasErrors('soNguoiToiDa')}" th:errors="*{soNguoiToiDa}"></p>
-                                                </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-6">Số người tối đa : </label>
+                                            <div class="col-6">
+                                                <input  type="text" class="form-control" th:field="${dichvu.soNguoiToiDa}" >
+                                                <p style="color: red" th:if="${#fields.hasErrors('soNguoiToiDa')}" th:errors="*{soNguoiToiDa}"></p>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Chi Phí Thue : </label>
-                                                    <input type="text" class="form-control" th:field="${dichvu.chiPhiThue}" >
-                                                    <p style="color: red" th:if="${#fields.hasErrors('chiPhiThue')}" th:errors="*{chiPhiThue}"></p>
-                                                </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-6">Chi Phí Thue : </label>
+                                            <div class="col-6">
+                                                <input type="number" step="0.01" class="form-control" th:field="${dichvu.chiPhiThue}" >
+                                                <p style="color: red" th:if="${#fields.hasErrors('chiPhiThue')}" th:errors="*{chiPhiThue}"></p>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -128,12 +119,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="form-group">
-                                                    <label>Trạng Thái : </label>
-                                                    <input type="text"  class="form-control"  th:field="${dichvu.trangThai}" >
-                                                </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-6">Trạng Thái : </label>
+                                            <div class="col-6">
+                                                <input type="text"  class="form-control" th:field="${dichvu.trangThai}" >
                                             </div>
                                         </div>
                                     </div>

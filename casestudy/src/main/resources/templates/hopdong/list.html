@@ -22,6 +22,9 @@
             padding: 17px 10px;
             line-height: 37px;
         }
+        .menu {
+            float: none;
+        }
     </style>
 </head>
 <body>
@@ -79,7 +82,7 @@
                 <td><a href="#deleteDichvu" class="delete" title="Delete" id="delete" th:data-id="${hopdong.id}"
                        th:data-name="${hopdong.khachHang.hoTen}"
                        data-toggle="modal"><i class="far fa-trash-alt"></i></a></td>
-                <td><button><a th:href="@{/create-hopdongchitiet/__${hopdong.id}__ }">Thêm Dịch Vụ</a></button></td>
+                <td><button class="btn btn-outline-primary" ><a th:href="@{/create-hopdongchitiet/__${hopdong.id}__ }">Thêm Dịch Vụ</a></button></td>
             </tr>
         </th:block>
         </tbody>

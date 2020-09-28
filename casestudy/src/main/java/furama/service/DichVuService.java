@@ -4,6 +4,7 @@ import furama.model.DichVu;
 import furama.model.KhachHang;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 
 public interface DichVuService {
@@ -15,5 +16,5 @@ public interface DichVuService {
 
     void save(DichVu dichVu);
 
-    void remove(Long id);
+    void remove(Long id, RedirectAttributes redirectAttributes);
 }
